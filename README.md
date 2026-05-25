@@ -33,7 +33,19 @@ Frontend engineer with 6+ years in React and Vue. I've led a frontend team, resc
 
 ## 🚀 Projects
 
-> *(coming soon)*
+### 🧘‍♂️ **Just Breath** ([PWA](https://just-breath.netlify.app/) / [Chrome Extension](https://chromewebstore.google.com/detail/just-breath/mdlliaajfdghjomkpbembokopmabnigb) / [TG Bot](https://t.me/breath_in_breath_out_bot))
+* **What:** A minimalist breathing app with a 1-click start.
+    *  Instant access via Web/PWA, Chrome Side Panel, or Telegram to quickly de-stress and refocus.
+    *  Soft, procedurally generated organic sounds with 100% offline autonomy.
+    *  Science-backed presets: SOS, Focus, Energy, Sleep, Balance, Therapy, and **Quit Smoking**.
+    *  Fully customizable personal patterns down to the second.
+* **Tech:** High-performance, zero-overhead client-side architecture.
+    *  Perfect 100/100 Lighthouse scores across all four categories.
+    *  Ultra-lightweight footprint: 338 KB total cached size (FCP 0.3s, LCP 0.4s).
+    *  Native Web Audio API for mathematical real-time sound synthesis (zero audio files overhead).
+    *  True multi-platform ecosystem running as PWA, Chrome Side Panel (MV3), and Telegram Mini App.
+    *  Strict 100% privacy: zero external SDKs or tracking, with all state isolated in client LocalStorage.
+* **Stack:** Vanilla JS, HTML5, CSS3 (Custom Properties), Vite, Web Audio API, PWA, Chrome Manifest V3.
 
 ---
 
