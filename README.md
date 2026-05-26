@@ -45,7 +45,7 @@ Frontend engineer with 6+ years in React and Vue. I've led a frontend team, resc
     *  Native Web Audio API for mathematical real-time sound synthesis (zero audio files overhead).
     *  True multi-platform ecosystem running as PWA, Chrome Side Panel (MV3), and Telegram Mini App.
     *  Strict 100% privacy: zero external SDKs or tracking, with all state isolated in client LocalStorage.
-* **Stack:** Vanilla JS, HTML5, CSS3 (Custom Properties), Vite, Web Audio API, PWA, Chrome Manifest V3.
+* **Stack:** Vanilla JS, HTML5, CSS3, Vite, Web Audio API, PWA, Chrome Manifest V3.
 
 ---
 
