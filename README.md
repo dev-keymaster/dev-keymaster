@@ -47,6 +47,24 @@ Frontend engineer with 6+ years in React and Vue. I've led a frontend team, resc
     *  Strict 100% privacy: zero external SDKs or tracking, with all state isolated in client LocalStorage.
 * **Stack:** Vanilla JS, HTML5, CSS3, Vite, Web Audio API, PWA, Chrome Manifest V3.
 
+##
+
+### 🤖 **Interactive AI Resume** ([Web](https://igor-kliuchnik-south-park-styled-in.vercel.app/) / [TG Bot](https://t.me/MY_DEV_CV_BOT))
+
+* **What:** An interactive digital avatar that conducts live, conversational job interview tailored to my CV.
+    * Replaces traditional static PDFs with an animated 2D SVG avatar featuring CSS-driven lip-sync synchronized to typewriter text effects.
+    * Provides instant, deterministic answers about my tech stack, experience, and soft skills in both English and Russian.
+    * Features smart Telegram session tracking that isolates conversations across restarts.
+    * Allows 1-click export of the interview transcript as an AI-ready `.md` file optimized for recruiter parsing.
+* **Tech:** High-availability, zero-cost serverless architecture powered by a deterministic-first fallback cascade.
+    * *Zero-Hallucination Flow:* Prioritizes instant, pre-written answers via UI autocomplete shortcuts and sub-millisecond Redis caching. If a direct match fails, Fuse.js fuzzy matching catches variations before an LLM is ever engaged.
+    * *AI as a Semantic Router:* When algorithmic matching isn't enough, the AI is not allowed to "chat"; it acts strictly as a classifier, outputting a JSON intent ID to fetch verified data. This eliminates generative hallucinations by design and significantly minimizes token consumption by avoiding unnecessary text generation.
+    * *0-Cost Failover Chain:* Powered by a tiered chain of 4 Groq API models. If a primary model hits a rate limit or goes down, the request seamlessly routes to the next, ensuring enterprise-grade uptime on free tiers.
+    * *Isolated Generative RAG:* True text generation is strictly sandboxed to a single intent (cv.meta.cv_search) for niche technical questions. It reads the full plain-text CV to generate custom answers based on my actual experience.
+    * *Graceful Degradation:* Redis tracks global and per-session API limits to prevent DDoS and quota exhaustion, degrading smoothly to pure algorithmic search if limits are hit. 
+    * *Continuous Logging:* Every interaction, including the query, resolved intent, and resolution source, is logged to Supabase to analyze and improve the flow.
+* **Stack:** Nuxt 4, Vue 3, Tailwind CSS, PostgreSQL, Redis, Fuse.js, AI (Groq API (GPT-OSS / Llama 3.1)).
+
 ---
 
 ## 📋 Highlights
